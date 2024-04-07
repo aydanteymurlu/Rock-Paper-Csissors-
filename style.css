@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#gameDiv {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.gameText {
+    margin: 10px 0;
+}
+
+.choiseBtn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.choiseBtn:hover {
+    background-color: #2980b9;
+}
+
+#palyerResult {
+    font-size: 20px;
+    font-weight: bold;
+}
